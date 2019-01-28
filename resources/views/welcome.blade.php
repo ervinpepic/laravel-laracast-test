@@ -3,10 +3,10 @@
 @section('content')
 	<h1>My {{ $foo }} first Website!</h1> 	{{-- {!! $foo !!} --}}
 	<ul>
-		@foreach($tasks as $task)
+		{{-- @foreach($tasks as $task)
 			<li>{{ $task }}</li>
-		@endforeach
-	</ul>Î
+		@endforeach --}}
+	</ul>
 @endsection
 
 @section('naslov')
